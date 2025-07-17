@@ -55,6 +55,24 @@ Virtual-stylist-AI/
 ├── README.md # You're here!
 
 
+
+##  How to Run the Project Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShreyaMaddineni/Virtual-stylist-AI.git
+cd Virtual-stylist-AI
+cd frontend
+npm install
+npm run dev
+cd ../backend
+npm install
+pip install -r requirements.txt
+node server.js
+
+
+
 ## 📸 Screenshots
 
 ###  Home Page

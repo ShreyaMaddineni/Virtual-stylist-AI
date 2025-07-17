@@ -58,10 +58,10 @@ Virtual-stylist-AI/
 ## 📸 Screenshots
 
 ###  Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/homepage.png)
 
 ###  Outfit Recommendations
-![Recommendation](screenshots/recommendation.png)
+![occasion](screenshots/occasion.png)
 
 ###  Weather-Based Recommendation
 ![Weather Recommendation](screenshots/weatherreccomendation.png)

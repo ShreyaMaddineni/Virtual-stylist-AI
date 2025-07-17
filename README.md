@@ -55,5 +55,24 @@ Virtual-stylist-AI/
 ├── README.md # You're here!
 
 
+## 📸 Screenshots
+
+###  Home Page
+![Home](screenshots/home.png)
+
+###  Outfit Recommendations
+![Recommendation](screenshots/recommendation.png)
+
+###  Weather-Based Recommendation
+![Weather Recommendation](screenshots/weatherreccomendation.png)
+
+###  Skin Tone Detection
+![Skin Tone 1](screenshots/skintone1.png)  
+![Skin Tone 2](screenshots/skintone2.png)  
+![Skin Tone](screenshots/skintone.png)
+
+###  Body Shape
+![Shape](screenshots/shape.png)
+
 
 

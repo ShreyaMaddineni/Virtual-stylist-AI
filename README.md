@@ -1,12 +1,59 @@
-# React + Vite
+# Virtual Stylist AI 👗🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered virtual stylist web app that recommends personalized outfit suggestions based on **body shape**, **skin tone**, **occasion**, and **weather**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###  Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js, Tailwind CSS, Vite
+- **Backend:** Node.js, Express.js, Python
+- **Authentication & Storage:** Firebase
+- **AI & ML:** Custom Python scripts, Replicate API
+- **APIs Used:** OpenWeatherMap (for weather), Replicate (FashionCLIP, YOLOv8), Google Vision
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+###  Key Features
+
+✅ **Body Shape-Based Suggestions**
+- User inputs bust, waist, hip size or uploads an image
+- Classifies into Apple, Pear, Hourglass, etc.
+- Recommends ideal outfit types per body shape
+
+✅ **Skin Tone Detection**
+- Upload face image → detects tone (Fair, Medium, Dark)
+- Suggests matching color palettes and outfits
+
+✅ **Occasion-Based Outfits**
+- Choose from Casual, Party, Formal, Traditional
+- Gets curated outfit recommendations
+
+✅ **Weather-Based Styling**
+- Auto-fetches current weather
+- Shows comfy outfits based on temperature & conditions
+
+✅ **Image Upload + Preview**
+- Users can upload photos to try features
+- Previews are visible before submission
+
+---
+
+###  AI Implementation
+
+- **YOLOv8 (Pose)** for body shape detection
+- **Replicate’s FashionCLIP** for outfit mapping
+- **Custom Python scripts** for ML logic
+- **TensorFlow + Matplotlib** used for model testing (demo notebook)
+
+---
+
+### 📁 Folder Structure
+Virtual-stylist-AI/
+├── frontend/ # React app with Tailwind, routing, Firebase
+├── backend/ # Node server, AI scripts, Python models!
+├── README.md # You're here!
+
+
+
+
